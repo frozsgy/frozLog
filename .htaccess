@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^frozLog-(.*).html?(.*)&(.*)&(.*)&(.*) index.php?$1&$2&$3&$4&$5 [NC]
